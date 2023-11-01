@@ -1,0 +1,565 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  background: #f7d9b6;
+  width: auto;
+  height: auto;
+}
+
+ .he{ 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-weight: 1000px;
+  margin: 0;
+  color: rgb(12, 7, 1);
+}
+img{
+vertical-align: middle;
+border: 3px solid #360101;
+height: 300px;
+}
+nav
+{
+   width:auto;
+   height: auto;
+    background-color: rgb(227, 89, 30);
+    color: rgb(4, 1, 13);
+    text-align: center;
+    padding-left: 10px;
+    margin: 0;
+}
+ nav .logo{
+  font-size: 50px;
+  font-weight: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+color: white;
+}
+nav .logo #logo{
+  height: 70px;
+  width: 70px;
+  border-radius: 500px;
+}
+ul li a{
+text-decoration: none;
+font-size: 30px;
+
+}
+ul
+{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+li
+{
+  text-decoration: doublek;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 0;
+    
+ } 
+ nav ul li a:hover{
+  width: 30px;
+  height: 10px;
+  color: black;
+  font-size: 30px;
+  background: rgba(170, 154, 135, 0.644);
+  padding:1rem;
+  border-radius: 20px;
+  margin:0;
+background-size: cover ;
+ }
+ table,th,td{
+    width: 100%;
+    height: 200%;
+    border: 1px solid rgb(126, 4, 4);
+    border-collapse: collapse;
+  margin-left:0;
+   margin-right:0;
+   margin-top: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+th,td{
+    background-color: rgba(243, 161, 128, 0.943);
+    font-size: 30px;
+    width: auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color:black;
+    text-align: center;
+
+}
+th{
+background-color: rgba(240, 78, 19, 0.943);  
+color:white ;
+}
+.bu{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  width: 300px;
+  margin-top:200px;
+  margin-bottom: 50px;
+  color: rgba(0, 0, s);
+  box-sizing: border-box;
+border-radius:150px;
+text-decoration: none;
+
+}
+.bu:hover{
+  background-color:  rgb(227, 89, 30);
+}
+.thumpnail{
+  display: flex;
+  /*justify-content: space-between;*/
+  margin: 50px ;
+  padding: 20px;
+  
+}
+.thumpnail img {
+  
+  border: 1px solid #ddd; 
+  border-radius: 500px;  /* Rounded border */
+  margin-left: 30px;
+  padding: 5px; /*ازاحة داخلية*/
+  width: 150px; 
+  height:200px;
+   width:200px;
+}
+
+/* Add a hover (blue shadow) */
+.thumpnail img:hover {
+  box-shadow: 0 0 2px 1px  rgb(227, 89, 30);
+}
+footer{
+  width:100%;
+   height:100px;
+    background-color: rgb(227, 89, 30);
+    color: rgb(4, 1, 13);
+    text-align: center;
+    padding: 20px;
+    
+}
+.icons{
+  font-size: 40px;
+  padding: 20px;
+}
+#cooks{
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+.cooks{
+  border: 30px 30px rgb(6, 6, 6);
+  background: white;
+  padding: 10px;
+  margin-top: 40px;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 60px;
+
+}
+.fry{
+  border: 30px 30px rgb(6, 6, 6);
+  background: white;
+  padding: 10px;
+  margin-top: 40px;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 60px;
+
+
+}
+.pastry{
+  border: 40px 40px rgb(6, 6, 6);
+  background:white;
+  padding: 10px;
+  height: auto;
+  margin-top: 40px;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 60px;
+
+}
+.confetti{
+  border: 30px 30px rgb(6, 6, 6);
+  background:white;
+  padding: 10px;
+  margin-top: 40px;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 60px;
+
+}
+.bb{
+  border: 30px 30px rgb(6, 6, 6);
+  background: white;
+  padding: 10px;
+  margin-top: 40px;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 60px;
+}
+#a{
+  height: 300px;
+  width: 100%;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  padding: 10px;
+  margin:10px;
+  border-radius:60px ;
+
+}
+#b{
+height: 300px;
+  width: 100%;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  padding: 10px;
+  margin:10px;
+  border-radius:60px ;
+
+}
+#c{
+  height: 300px;
+  width: 100%;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  padding: 10px;
+  margin:10px;
+  border-radius:60px ;
+
+}
+#d{
+  height: 300px;
+  width: 100%;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  padding: 10px;
+  margin:10px;
+  border-radius:60px ;
+
+}
+#e{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+
+}
+#f{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+
+}
+#g{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+
+}
+#h{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+
+}
+#i{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+
+}
+#j{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+
+}
+#k{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+#l{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+#m{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+#n{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+#o{
+
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+#p{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+#q{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+#r{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+#s{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+#t{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+#u{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+#v{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+#w{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+#x{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+#y{
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  border: 20px 20px rgb(249, 94, 5);
+  background:rgb(229, 210, 210) ;
+  text-align: center;
+  color:black;
+  margin:10px;
+  border-radius:60px ;
+}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 30px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}

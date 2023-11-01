@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.css">
+
+    <link  rel="stylesheet" href="../css/style.css"/>
+    <link rel="icon" href="../img/cook.ico"/>
+    <style>
+      body{
+      background: url(../img/login.jpg);
+      background-size: cover;
+      }
+      section{
+
+width: auto;
+height: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 200px;
+
+  padding-top: 30px;
+  padding-bottom: auto;
+  
+  
+
+}
+ /* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+    background: rgba(0, 0, 0,.5);
+    width: 700px;
+    height: 700px;
+    text-align: center;
+    
+  }
+  form{
+    margin-left: 400px;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  #x{
+    color: rgb(212, 155, 11);
+  }
+  
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+margin-left: 10px;
+margin-top: 0;
+margin-bottom: 10px;
+
+
+
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 18px 0 9px 0;
+
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+    padding-right: 0;
+
+  color: white;
+  }
+  
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding:0;
+
+    color:black;
+
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+
+
+    </style>
+
+</head>
+<body>
+  <heder class="he">
+    <h1>YEMEN COOKS</h1>
+  </heder>
+  <nav>
+    <ul>
+      <li class="logo"><img src="../img/logo.jpg" alt="logo.jpg" id="logo"></li>
+      <li><a href="home.html">home </a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="menu.html">menu</a></li>
+      <li><a href="sign up.html">sign up</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </nav>
+ 
+  <section>
+    <form action="action_page.php" method="post">
+      <div class="imgcontainer">
+        <img src="../img/login.png" alt="Avatar" class="avatar" >
+      </div>
+    
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </section>
+  <footer class="footer">
+    <div class="icons">
+      <i class="fa fa-instagram fs-3 gap-5" style="color:white"></i>
+  <i class="fa fa-facebook fs-3 gap-5" style="color:white;"></i>
+  <i class="fa fa-twitter fs-3 gap-5" style="color: white"></i>
+  <i class="fa fa-telegram fs-3" style="color:white;"></i>
+  <i class="fa fa-whatsapp fs-3" style="color: white;"></i>
+  </div>
+  </footer>
+</body>
+</html>
